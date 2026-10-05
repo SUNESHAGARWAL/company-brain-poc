@@ -1,0 +1,8 @@
+Meeting: Northwind / Quillfeather lender call
+Date: 2026-09-18T15:00:00Z
+Attendees: tom@corvane.example, lena@corvane.example, priya.raman@northwind.example, jcho@quillfeather.example
+
+Tom Becker: Thanks for joining. Jane, where is Quillfeather in the process?
+Jane Cho: Quillfeather has the deal in credit committee next week. Indicative pricing would be SOFR+475.
+Priya Raman: The warehouse appraisal will be ready by month end.
+Tom Becker: We are also adding Basaltline Capital to the process given the warehouse piece.

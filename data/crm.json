@@ -1,0 +1,36 @@
+{
+  "_note": "Synthetic sample. Stands in for a CRM export (e.g. Zoho CRM CSV) landed in a UC volume.",
+  "companies": [
+    {"id": "C-NW", "name": "Northwind Logistics", "industry": "logistics", "domain": "northwind.example", "aliases": ["Northwind"]},
+    {"id": "C-CF", "name": "Contoso Freight", "industry": "logistics", "domain": "contoso.example", "aliases": ["Contoso"]},
+    {"id": "C-FF", "name": "Fabrikam Foods", "industry": "food manufacturing", "domain": "fabrikam.example", "aliases": ["Fabrikam"]},
+    {"id": "C-US", "name": "Corvane Advisory", "industry": "advisory", "domain": "corvane.example", "aliases": ["Corvane"]}
+  ],
+  "lenders": [
+    {"id": "L-HB", "name": "Larkspur Bank", "domain": "larkspurbank.example", "aliases": ["Larkspur"]},
+    {"id": "L-SC", "name": "Quillfeather Credit", "domain": "quillfeather.example", "aliases": ["Quillfeather"]},
+    {"id": "L-GC", "name": "Basaltline Capital", "domain": "basaltline.example", "aliases": ["Basaltline"]},
+    {"id": "L-BL", "name": "Tidewren Lending", "domain": "tidewren.example", "aliases": ["Tidewren"]}
+  ],
+  "contacts": [
+    {"id": "P-PR", "name": "Priya Raman", "email": "priya.raman@northwind.example", "org": "C-NW", "title": "CFO"},
+    {"id": "P-TB", "name": "Tom Becker", "email": "tom@corvane.example", "org": "C-US", "title": "Managing Director"},
+    {"id": "P-LO", "name": "Lena Ortiz", "email": "lena@corvane.example", "org": "C-US", "title": "Analyst"},
+    {"id": "P-ME", "name": "Mark Ellis", "email": "mark.ellis@larkspurbank.example", "org": "L-HB", "title": "SVP Credit"},
+    {"id": "P-JC", "name": "Jane Cho", "email": "jcho@quillfeather.example", "org": "L-SC", "title": "Director"},
+    {"id": "P-OH", "name": "Owen Hale", "email": "owen@basaltline.example", "org": "L-GC", "title": "Principal"},
+    {"id": "P-DK", "name": "Dana Kim", "email": "dana.kim@fabrikam.example", "org": "C-FF", "title": "Treasurer"}
+  ],
+  "deals": [
+    {"id": "D-101", "company": "C-NW", "name": "Northwind Logistics senior secured term loan", "stage": "marketing", "opened": "2026-08-04"},
+    {"id": "D-077", "company": "C-CF", "name": "Contoso Freight equipment facility", "stage": "closed", "opened": "2025-03-10"},
+    {"id": "D-083", "company": "C-FF", "name": "Fabrikam Foods working capital line", "stage": "closed", "opened": "2025-06-02"},
+    {"id": "D-104", "company": "C-FF", "name": "Fabrikam Foods refinancing", "stage": "intake", "opened": "2026-09-15"}
+  ],
+  "deal_lender_history": [
+    {"deal": "D-077", "lender": "L-BL", "outcome": "funded", "date": "2025-05-20"},
+    {"deal": "D-077", "lender": "L-HB", "outcome": "declined", "date": "2025-04-11"},
+    {"deal": "D-083", "lender": "L-GC", "outcome": "funded", "date": "2025-08-01"},
+    {"deal": "D-083", "lender": "L-BL", "outcome": "declined", "date": "2025-07-03"}
+  ]
+}
